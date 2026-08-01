@@ -1,8 +1,26 @@
 aid: redesign-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/redesign-health.png
 name: Redesign Health
-description: Redesign Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Redesign Health is a global venture and applied technology firm that backs and builds
+  next-generation healthcare companies. Founded in 2018, it partners with founders and
+  existing businesses through AI-native venture capital and buyout strategies, and reports
+  having touched more than 15 million patient lives while raising over $1.5 billion in
+  capital. The firm operates from New York, Los Angeles, Riyadh, and Bengaluru. Redesign
+  Health surfaced in the API Evangelist network as a portfolio company of General Catalyst;
+  this profile captures its public identity. Redesign Health publishes no public developer
+  API, developer portal, documentation, SDKs, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/redesign-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health Care
+- Venture Capital
+- Health Technology
+- Digital Health
+- Venture Studio
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/redesign-health-domain-security.yml
+- type: Website
+  url: https://www.redesignhealth.com
+- type: PrivacyPolicy
+  url: https://www.redesignhealth.com/privacy
+- type: Careers
+  url: https://jobs.ashbyhq.com/Redesign%20Health
+- type: LinkedIn
+  url: https://www.linkedin.com/company/redesign-health/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
